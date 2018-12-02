@@ -1,0 +1,58 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/leaves.png");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    /* This neat background image opacity trick is courtesy of https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-content {
+    text-align: center;
+}
+
+#main-desc {
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    text-shadow: 2px 1px 1px black;
+    text-align: center
+}
+
+#home-img {
+    margin-top: -125px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#main-title {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3.5em;
+    display: flex;
+    text-shadow: 2px 1px 2px black;
+}
+
+#learn-more {
+    border: none;
+    padding: 20px 40px;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    background-color: #4CFFB6;
+}
+
+#learn-more:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.1);
+}

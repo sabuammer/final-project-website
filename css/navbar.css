@@ -1,0 +1,81 @@
+header {
+    background: #267F5B;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    /* Box shadow credit goes to https://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(102,102,102,0.75);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(102,102,102,0.75);
+    box-shadow: 0px 1px 2px 0px rgba(102,102,102,0.75);
+}
+
+#nav-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.nav-li, .nav-a, .fa-recycle {
+    color: #FFF;
+    list-style: none;
+    font-size: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px black;
+}
+
+.fa-recycle {
+    padding-right: 10px;
+}
+
+.nav-a {
+    color: #FFF;
+    list-style: none;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+#proposal-nav {
+    margin-left: auto;
+}
+
+.flex-end {
+    text-transform: uppercase;
+}
+
+.navitem {
+    color: #FFF;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #267F5B;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    /* Box shadow credit goes to https://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: 0px -1px 2px 0px rgba(102,102,102,0.75);
+    -moz-box-shadow: 0px -1px 2px 0px rgba(102,102,102,0.75);
+    box-shadow: 0px -1px 2px 0px rgba(102,102,102,0.75);
+}
+
+#footer-info {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa-twitter {
+    color: #FFF;
+    padding-top: 10px;
+    font-size: 18px;
+}
