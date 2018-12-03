@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(102,102,102,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(102,102,102,1);
+    box-shadow: 0px 0px 5px 0px rgba(102,102,102,1);
+    margin: 10px 0;
+}
+
+#page {
+    margin: 30px 75px;
+}
+
+#main-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}

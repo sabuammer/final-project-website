@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/reset.css" type="text/css">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css">
-    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="stylesheet" href="./css/pickup.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <title>Yard Waste Collection – Proposal</title>
@@ -30,17 +30,74 @@
             </ul>
         </nav>
     </header>
-    <h1>Pickup Instructions</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div id="page">
+        <h1 id="main-heading">What You Need to Know About Chicago’s New Yard Waste Removal System</h1>
+        <hr>
+        <ul class="instructions-list" id="initial-list">
+            <li>
+                Yard waste will either be collected directly from your home or from a designated drop-off area in your community depending on the month.
+            </li>
+            <li>
+                Small fines will be given to those who improperly dispose of waste (for example, if yard waste or recyclables are found in the garbage). 
+            </li>
+            <li>
+                Communities with the highest yard waste collection rate will receive a monetary bonus for park district/community park improvements. The amount of waste will be weighted according to the number of trees and greenery in each community.
+            </li>
+            <li>
+                For further information, please visit www.chilawndisposal.com.       
+            </li>
+        </ul>
+        <h2>Collection Information</h2>
+        <ul class="instructions-list">
+            <li>
+                <h3><em>May – November</em></h3>
+                <ol>
+                    <li>Purchase a reusable bin or brown recyclable bags.</li>
+                    <li>Put yard waste (refer to table below) into bin/bag.</li>
+                    <li>To avoid fines, be sure to sort garbage, recyclables, and yard waste in the appropriate bins.</li>
+                    <li>Place yard waste bin/bag directly next to your garbage and recycle bins.</li>
+                    <li>The City of Chicago will remove and compost your yard waste on the assigned pick-up day.</li>
+                </ol>
+            </li>
+            <li><h3><em>May – August: </em></h3>Pick-up every two weeks.</li>
+            <li><h3><em>September-November: </em></h3>Pick-up every week.</li>
+            <li>
+                <h3><em>December-April</em></h3>
+                <ol>
+                    <li>Purchase a brown recyclable bag.</li>
+                    <li>Put yard waste (refer to table below) into bag.</li>
+                    <li>To avoid fines, be sure to sort garbage, recyclables, and yard waste in the appropriate bins.</li>
+                    <li>Bring bag to the designated drop-off area in your community.</li>
+                    <li>The City of Chicago will remove and compost your yard waste on the assigned pick-up day every two weeks.</li>
+                </ol>
+            </li>
+        </ul>
+        <div id="yard-info-lists">
+            <div id="yard-waste-list">
+                <!-- Although using a span tag isn't best practice, the alternatives for coloring just the last two words of the 
+                p tag below are more complicated, since it can't be done with pure CSS -->
+                <h3><strong>What <u>is</u><span> yard waste?</span></strong></h3>
+                <ul class="instructions-list">
+                    <li>Leaves</li>
+                    <li>Grass clippings</li>
+                    <li>Branches, brush, clippings from shrubbery</li>
+                    <li>Garden waste</li>
+                    <li>Kitchen scraps (such as fruit and vegetable scraps, egg shells, and coffee grounds)</li>
+                </ul>
+            </div>
+            <div id="not-yard-waste-list">
+                <h3><strong>What is <u>not</u><span> yard waste?</span></strong></h3>
+                <ul class="instructions-list">
+                    <li>Dirt, rocks, or gravel</li>
+                    <li>Animal waste</li>
+                    <li>Plastic bags</li>
+                    <li>Plant ties/netting</li>
+                    <li>Garden tools</li>
+                    <li>Anything else that should be placed in a garbage bin or recycled</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <footer>
         <p id="footer-info">Follow us on social media!</p>
         <p class="sr-only">Twitter logo</p><i class="fab fa-twitter" aria-hidden="true"></i>

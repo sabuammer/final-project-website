@@ -1,0 +1,47 @@
+#page {
+    margin: 30px 75px;
+}
+
+#main-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#page li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20.8px;
+    line-height: 24.96px;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20.8px;
+    line-height: 24.96px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.instructions-list {
+    padding-left: 40px;
+}
+
+ol {
+    padding-left: 40px;
+}
+
+#yard-info-lists {
+    display: flex;
+    margin-top: 15px;
+}
+
+span {
+    color: #267F5B;
+}

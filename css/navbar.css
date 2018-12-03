@@ -19,8 +19,8 @@ header {
 .nav-li, .nav-a, .fa-recycle {
     color: #FFF;
     list-style: none;
-    font-size: 1.75em;
-    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 900;
     text-shadow: 1px 1px 1px black;
 }
